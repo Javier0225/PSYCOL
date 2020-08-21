@@ -1,0 +1,47 @@
+:root{
+	--darkblue: #162447;
+	--blue: #162447;
+	--black: #1b1b2f;
+    --pink: #e43f5a;
+    --main-font:  'Lobster Two', cursive;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/*Table design*/
+table{
+    border: 1px solid var(--darkblue);
+    font-family: var(--main-font);
+    margin: auto;
+    margin-top: 100px;
+}
+thead{
+    background-color: var(--pink);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+thead tr td{
+    padding: 10px;
+}
+tbody tr td{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+tbody tr:nth-child(odd){
+    background-color: var(--blue);
+    color: white;
+}
+tbody tr:nth-child(even){
+    background-color: var(--darkblue);
+    color: white;
+}
+.link-table{
+    color: white;
+    font-size: 20px;
+
+
+}
+

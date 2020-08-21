@@ -1,0 +1,63 @@
+
+:root{
+	--darkblue: #162447;
+	--blue: #162447;
+    --black: #1b1b2f;
+    --pink: #e43f5a;
+    --main-font:  'Lobster Two', cursive;
+}
+form{
+    background-color: var(--blue);
+    margin: auto;
+    margin-top: 50px;
+    font-family: var(--main-font);
+    font-size: 18px;
+    width: 30%;
+    padding: 40px;
+    color: white;
+}
+form tr td{
+    padding-top: 10px;
+}
+.label{
+    padding-right: 30px;
+}
+.input-selection{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    width: 40px;
+    border:none;
+    border-bottom: 1px solid var(--pink);
+    padding-bottom: 5px;
+
+    background-color: var(--blue);
+    background-image: url(../Imgs/Desplegable.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: white;
+
+}
+.input-selection option{
+    background-color: var(--pink);
+    font-family: var(--main-font);
+}
+.btn{
+	width: 150px;
+	height: 38px;
+	background: var(--blue);
+	border-radius: 24px;
+	border: 1px groove var(--pink);
+	outline: none;
+	font-size: 22px;
+	color: #fff;
+	text-align: center;
+	margin-top: 15px;
+	cursor: pointer;
+	transition: 1s;
+}
+.btn:hover{
+    background-color: var(--pink);
+    transition: 1s;
+}

@@ -1,0 +1,109 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Lobster Two', cursive;
+	background: url(../img/fondo.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;	
+}
+
+.info{
+	width: 100%;
+	margin-top: 120px;
+}
+
+.info .info-title{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+.info .info-title h2{
+	font-size: 50px;
+	color: #ff5200;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.info .info-title hr{
+	width: 60%;
+	margin: auto;
+	height: 2px;
+	background: black;
+	border: none;
+
+}
+
+.info .box-info{
+	width: 90%;
+	margin: 80px auto;
+
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.info .box-info .card-info{
+	width: 45%;
+	margin: 20px;
+
+}
+
+.info .box-info .card-info .card-img{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.info .box-info .card-info .card-img img{
+	width: 155px;
+	height: 155px;
+	border-radius: 50%;
+	object-fit: cover;
+	cursor: pointer; 
+}
+
+.info .box-info .card-info .info-tex{
+	width: 90%;
+	border: 2px solid #00263b;
+	padding: 20px;
+	margin-top: 30px;
+	border-radius: 20px;
+	transition: 200ms;
+
+}
+
+.info .box-info .card-info .info-tex h4{
+	color: #6f0000;
+	font-weight: normal;
+	font-size: 27px;
+	text-align: center;
+	margin-bottom: 20px;
+	transition: 200ms;
+
+}
+
+.info .box-info .card-info .info-tex p{
+	font-size: 19px;
+	color: #fa7d09;
+	text-align: center;
+	line-height: 25px;
+	transition: 200ms;
+
+}
+
+.info .box-info .card-info .info-tex:hover{
+	border: 6px solid #00a1ab;
+
+}
+
+.info .box-info .card-info .info-tex:hover h4{
+	color: #ff5200;
+}

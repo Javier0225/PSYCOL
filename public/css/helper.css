@@ -1,0 +1,42 @@
+
+:root{
+	--darkblue: #162447;
+	--blue: #162447;
+	--black: #1b1b2f;
+	--pink: #e43f5a;
+}
+.content-main{
+    background-image: url(../Imgs/IMG-02.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.content-second{
+    background-color: var(--darkblue);
+    color: white;
+    width: 25%;
+}
+.link{
+    color: white;
+    display: block;
+    padding: 10px;
+}
+.next-nav{
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+}
+.buttom-create{
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 10%;
+    background-color: var(--darkblue);
+    border-radius: 10px;
+    border: 1px solid var(--pink);
+}
+.realizado{
+    background-color: darkgreen;
+}
